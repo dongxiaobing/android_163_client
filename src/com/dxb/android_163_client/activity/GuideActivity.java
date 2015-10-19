@@ -51,7 +51,11 @@ public class GuideActivity extends Activity {
 		for(int i:imageList){
 			View view=new View(this);
 			view.setBackgroundResource(R.drawable.shape_yuan);
-			lv_yuan.addView(view,params);
+//			if(i>0){
+//				params.leftMargin=10;
+//			}
+			view.setLayoutParams(params);
+			lv_yuan.addView(view);
 		}
 		
 		//当在一个视图树中全局布局发生改变或者视图树中的某个视图的可视状态发生改变时，所要调用的回调函数的接口类
