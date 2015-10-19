@@ -1,1 +1,1 @@
-# android_recyle_image
+# android智慧北京新闻客户端
